@@ -6,7 +6,7 @@ public class Application : Gtk.Application {
         );
     }
     protected override void activate () {
-        var window = new MyApp.Window (this);
+        var window = new araggna.Window (this);
         add_window (window);
         
     }

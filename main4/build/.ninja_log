@@ -6,3 +6,17 @@
 455	1124	1583986734	araggna@exe/meson-generated_src_Application.c.o	67eaf2a5a72273a5
 455	1148	1583986734	araggna@exe/meson-generated_src_Widgets_Window.c.o	91fda4f1e24bab72
 1148	1297	1583986735	araggna	fa84c5bd15d63b28
+0	527	1583991660	build.ninja	a9d1ee0b5bd6f244
+0	447	1583991660	src/araggna@exe/main4.c	789a468d3bcdf30a
+0	447	1583991660	src/araggna@exe/Widgets/Window.c	789a468d3bcdf30a
+0	447	1583991660	src/araggna@exe/Application.c	789a468d3bcdf30a
+448	910	1583991661	src/araggna@exe/meson-generated_Application.c.o	75efb7d1053516a8
+447	1099	1583991661	src/araggna@exe/meson-generated_main4.c.o	1c896d38e3223ca2
+448	1146	1583991661	src/araggna@exe/meson-generated_Widgets_Window.c.o	e8321f38d980493d
+1146	1290	1583991661	src/araggna	220e69f0a8a336d8
+3	454	1583991915	src/araggna@exe/main4.c	789a468d3bcdf30a
+3	454	1583991915	src/araggna@exe/Widgets/Window.c	789a468d3bcdf30a
+3	454	1583991915	src/araggna@exe/Application.c	789a468d3bcdf30a
+454	880	1583991920	src/araggna@exe/meson-generated_Widgets_Window.c.o	e8321f38d980493d
+455	883	1583991920	src/araggna@exe/meson-generated_Application.c.o	75efb7d1053516a8
+883	1037	1583991920	src/araggna	220e69f0a8a336d8

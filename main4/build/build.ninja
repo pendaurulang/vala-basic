@@ -65,22 +65,22 @@ build PHONY: phony
 
 # Build rules for targets
 
-build araggna@exe/src/main4.c araggna@exe/src/Widgets/Window.c araggna@exe/src/Application.c: vala_COMPILER ../src/main4.vala ../src/Widgets/Window.vala ../src/Application.vala
- ARGS = -C --debug --pkg gtk+-3.0 --color=always --directory araggna@exe --basedir ../
+build src/araggna@exe/main4.c src/araggna@exe/Widgets/Window.c src/araggna@exe/Application.c: vala_COMPILER ../src/main4.vala ../src/Widgets/Window.vala ../src/Application.vala
+ ARGS = -C --debug --pkg gtk+-3.0 --color=always --directory src/araggna@exe --basedir ../src
 
-build araggna@exe/meson-generated_src_main4.c.o: c_COMPILER araggna@exe/src/main4.c
- DEPFILE = araggna@exe/meson-generated_src_main4.c.o.d
- ARGS = -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
+build src/araggna@exe/meson-generated_main4.c.o: c_COMPILER src/araggna@exe/main4.c
+ DEPFILE = src/araggna@exe/meson-generated_main4.c.o.d
+ ARGS = -Isrc/araggna@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
 
-build araggna@exe/meson-generated_src_Widgets_Window.c.o: c_COMPILER araggna@exe/src/Widgets/Window.c
- DEPFILE = araggna@exe/meson-generated_src_Widgets_Window.c.o.d
- ARGS = -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
+build src/araggna@exe/meson-generated_Widgets_Window.c.o: c_COMPILER src/araggna@exe/Widgets/Window.c
+ DEPFILE = src/araggna@exe/meson-generated_Widgets_Window.c.o.d
+ ARGS = -Isrc/araggna@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
 
-build araggna@exe/meson-generated_src_Application.c.o: c_COMPILER araggna@exe/src/Application.c
- DEPFILE = araggna@exe/meson-generated_src_Application.c.o.d
- ARGS = -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
+build src/araggna@exe/meson-generated_Application.c.o: c_COMPILER src/araggna@exe/Application.c
+ DEPFILE = src/araggna@exe/meson-generated_Application.c.o.d
+ ARGS = -Isrc/araggna@exe -Isrc -I../src -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread
 
-build araggna: c_LINKER araggna@exe/meson-generated_src_main4.c.o araggna@exe/meson-generated_src_Widgets_Window.c.o araggna@exe/meson-generated_src_Application.c.o
+build src/araggna: c_LINKER src/araggna@exe/meson-generated_main4.c.o src/araggna@exe/meson-generated_Widgets_Window.c.o src/araggna@exe/meson-generated_Application.c.o
  LINK_ARGS = -Wl,--no-undefined -Wl,--as-needed -Wl,--start-group -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -Wl,--end-group
 
 # Test rules
@@ -129,7 +129,7 @@ build meson-uninstall: CUSTOM_COMMAND PHONY
 
 build uninstall: phony meson-uninstall
 
-build all: phony araggna
+build all: phony src/araggna
 
 default all
 
@@ -139,11 +139,11 @@ build meson-clean: CUSTOM_COMMAND PHONY
  COMMAND = ninja -t clean
  description = Cleaning.
 
-build build.ninja: REGENERATE_BUILD ../meson.build meson-private/coredata.dat
+build build.ninja: REGENERATE_BUILD ../meson.build ../src/meson.build meson-private/coredata.dat
  pool = console
 
 build reconfigure: REGENERATE_BUILD PHONY
  pool = console
 
-build ../meson.build meson-private/coredata.dat: phony 
+build ../meson.build ../src/meson.build meson-private/coredata.dat: phony 
 

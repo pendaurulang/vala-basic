@@ -1,4 +1,4 @@
-Build started at 2020-03-12T11:18:40.797695
+Build started at 2020-03-12T12:41:00.021110
 Main binary: /usr/bin/python3
 Python system: Linux
 The Meson build system
@@ -7,34 +7,10 @@ Source dir: /home/re/Programs/project/study/vala/vala-basic/main4
 Build dir: /home/re/Programs/project/study/vala/vala-basic/main4/build
 Build type: native build
 Project name: araggna
-Sanity testing C compiler: cc
-Is cross compiler: False.
-Sanity check compiler command line: cc /home/re/Programs/project/study/vala/vala-basic/main4/build/meson-private/sanitycheckc.c -o /home/re/Programs/project/study/vala/vala-basic/main4/build/meson-private/sanitycheckc.exe
-Sanity check compile stdout:
-
------
-Sanity check compile stderr:
-
------
-Running test binary command: /home/re/Programs/project/study/vala/vala-basic/main4/build/meson-private/sanitycheckc.exe
 Native C compiler: cc (gcc 7.4.0 "cc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0")
-Running compile:
-Working directory:  /tmp/tmph32jlurc
-Command line:  valac /tmp/tmph32jlurc/testfile.vala -C -C -o /tmp/tmph32jlurc/output.obj 
-
-Code:
- class MesonSanityCheck : Object { }
-Compiler stdout:
- Compilation succeeded - 1 warning(s)
-
-Compiler stderr:
- warning: --output and -o have no effect when -C or --ccode is set
-
 Native Vala compiler: valac (valac 0.40.17)
 Build machine cpu family: x86_64
 Build machine cpu: x86_64
-Found pkg-config: /usr/bin/pkg-config (0.29.1)
-Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
-Native dependency gtk+-3.0 found: YES 3.22.30
+Dependency gtk+-3.0 found: YES (cached)
 Build targets in project: 1
 Found ninja-1.8.2 at /usr/bin/ninja
