@@ -1,0 +1,8 @@
+# ninja log v5
+0	641	1583977317	araggna@exe/main3.c	5658e3697fb3cc9a
+0	641	1583977317	araggna@exe/Window.c	5658e3697fb3cc9a
+0	641	1583977317	araggna@exe/Application.c	5658e3697fb3cc9a
+642	2640	1583977319	araggna@exe/meson-generated_Application.c.o	4793f9b8143f61af
+641	2648	1583977319	araggna@exe/meson-generated_main3.c.o	9336e8c2ca58717c
+641	2653	1583977319	araggna@exe/meson-generated_Window.c.o	7f1e525e7f816bd4
+2654	3859	1583977320	araggna	6720800675efcee4

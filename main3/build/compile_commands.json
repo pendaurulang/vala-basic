@@ -1,0 +1,22 @@
+[
+  {
+    "directory": "/home/re/Programs/project/study/vala/vala-basic/main3/build",
+    "command": "valac -C --debug --pkg gtk+-3.0 --color=always --directory araggna@exe --basedir ../ ../main3.vala ../Window.vala ../Application.vala",
+    "file": "../main3.vala"
+  },
+  {
+    "directory": "/home/re/Programs/project/study/vala/vala-basic/main3/build",
+    "command": "cc  -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread -MD -MQ 'araggna@exe/meson-generated_main3.c.o' -MF 'araggna@exe/meson-generated_main3.c.o.d' -o 'araggna@exe/meson-generated_main3.c.o' -c 'araggna@exe/main3.c'",
+    "file": "araggna@exe/main3.c"
+  },
+  {
+    "directory": "/home/re/Programs/project/study/vala/vala-basic/main3/build",
+    "command": "cc  -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread -MD -MQ 'araggna@exe/meson-generated_Window.c.o' -MF 'araggna@exe/meson-generated_Window.c.o.d' -o 'araggna@exe/meson-generated_Window.c.o' -c 'araggna@exe/Window.c'",
+    "file": "araggna@exe/Window.c"
+  },
+  {
+    "directory": "/home/re/Programs/project/study/vala/vala-basic/main3/build",
+    "command": "cc  -Iaraggna@exe -I. -I.. -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0/ -I/usr/include/harfbuzz -I/usr/include/pango-1.0 -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -w -O0 -g -pthread -MD -MQ 'araggna@exe/meson-generated_Application.c.o' -MF 'araggna@exe/meson-generated_Application.c.o.d' -o 'araggna@exe/meson-generated_Application.c.o' -c 'araggna@exe/Application.c'",
+    "file": "araggna@exe/Application.c"
+  }
+]

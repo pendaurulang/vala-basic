@@ -1,7 +1,7 @@
 public class Application : Gtk.Application {
     public Application() {
         Object (
-            application_id: "main1_araggna",
+            application_id: "araggna",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
