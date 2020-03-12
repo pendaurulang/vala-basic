@@ -1,0 +1,8 @@
+# ninja log v5
+0	455	1583986734	araggna@exe/src/main4.c	206f1c105fa81850
+0	455	1583986734	araggna@exe/src/Widgets/Window.c	206f1c105fa81850
+0	455	1583986734	araggna@exe/src/Application.c	206f1c105fa81850
+455	888	1583986734	araggna@exe/meson-generated_src_main4.c.o	dceb9f2b62483e99
+455	1124	1583986734	araggna@exe/meson-generated_src_Application.c.o	67eaf2a5a72273a5
+455	1148	1583986734	araggna@exe/meson-generated_src_Widgets_Window.c.o	91fda4f1e24bab72
+1148	1297	1583986735	araggna	fa84c5bd15d63b28
