@@ -10,6 +10,9 @@ public class araggna.Window : Gtk.ApplicationWindow {
         window_position = Gtk.WindowPosition.CENTER;
         set_default_size (350, 88);        
         
+        var settings = new Settings("com.app.araggna");
+        move (settings.get_int ("pos-x"), settings.get_int ("pos-y"));
+
         show_all ();
     }
 }

@@ -63,7 +63,7 @@ application_construct (GType object_type)
 {
 	Application * self = NULL;
 #line 3 "/home/re/Programs/project/study/vala/vala-basic/main5/src/Application.vala"
-	self = (Application*) g_object_new (object_type, "application-id", "araggna", "flags", G_APPLICATION_FLAGS_NONE, NULL);
+	self = (Application*) g_object_new (object_type, "application-id", "com.app.araggna", "flags", G_APPLICATION_FLAGS_NONE, NULL);
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main5/src/Application.vala"
 	return self;
 #line 70 "Application.c"

@@ -1,4 +1,4 @@
-project('araggna', 'vala', 'c')
+project('com.araggna', 'vala', 'c')
 
 subdir ('src')
 subdir ('data')
