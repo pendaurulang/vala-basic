@@ -1,0 +1,9 @@
+# ninja log v5
+0	877	1584265317	src/25a6634@@araggna@exe/main5.c	efca2fb92fde8e93
+0	877	1584265317	src/25a6634@@araggna@exe/Widgets/Window.c	efca2fb92fde8e93
+0	877	1584265317	src/25a6634@@araggna@exe/Application.c	efca2fb92fde8e93
+878	2991	1584265319	src/25a6634@@araggna@exe/meson-generated_main5.c.o	cabda77c70c4cb3
+878	3014	1584265319	src/25a6634@@araggna@exe/meson-generated_Application.c.o	bc52a42de5966e92
+878	3034	1584265319	src/25a6634@@araggna@exe/meson-generated_Widgets_Window.c.o	f406a07a7b18c7e7
+3035	4089	1584265320	src/araggna	630e2d46d7861642
+3	1256	0	meson-install	d9e96985dc3b0ec8
