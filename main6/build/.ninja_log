@@ -1,0 +1,18 @@
+# ninja log v5
+0	467	1584949678	src/25a6634@@com.araggna@exe/main6.c	52f46a626c4d59e6
+0	467	1584949678	src/25a6634@@com.araggna@exe/Widgets/Window.c	52f46a626c4d59e6
+0	467	1584949678	src/25a6634@@com.araggna@exe/Application.c	52f46a626c4d59e6
+467	833	1584949678	src/25a6634@@com.araggna@exe/meson-generated_main6.c.o	65589093185f3cf3
+467	1050	1584949678	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
+467	1051	1584949678	src/25a6634@@com.araggna@exe/meson-generated_Application.c.o	ec75e0df7f082232
+1051	1198	1584949679	src/com.araggna	c649dcee510471a1
+2	445	1584949977	src/25a6634@@com.araggna@exe/main6.c	52f46a626c4d59e6
+2	445	1584949977	src/25a6634@@com.araggna@exe/Widgets/Window.c	52f46a626c4d59e6
+2	445	1584949977	src/25a6634@@com.araggna@exe/Application.c	52f46a626c4d59e6
+446	806	1584949982	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
+806	948	1584949982	src/com.araggna	c649dcee510471a1
+4	458	1584950588	src/25a6634@@com.araggna@exe/main6.c	52f46a626c4d59e6
+4	458	1584950588	src/25a6634@@com.araggna@exe/Widgets/Window.c	52f46a626c4d59e6
+4	458	1584950588	src/25a6634@@com.araggna@exe/Application.c	52f46a626c4d59e6
+458	825	1584950590	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
+825	968	1584950591	src/com.araggna	c649dcee510471a1
