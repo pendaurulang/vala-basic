@@ -1,4 +1,4 @@
-Build started at 2020-03-15T23:53:36.622370
+Build started at 2020-03-23T08:40:51.997692
 Main binary: /usr/bin/python3
 Build Options: -Dprefix=/usr
 Python system: Linux
@@ -27,8 +27,8 @@ C linker for the build machine: cc ld.bfd 2.30
 No VALAFLAGS in the environment, not changing global flags.
 No LDFLAGS in the environment, not changing global flags.
 Running compile:
-Working directory:  /tmp/tmphq4z25r5
-Command line:  valac /tmp/tmphq4z25r5/testfile.vala -C 
+Working directory:  /tmp/tmp24655be0
+Command line:  valac /tmp/tmp24655be0/testfile.vala -C 
 
 Code:
  class MesonSanityCheck : Object { }
@@ -55,7 +55,7 @@ C linker for the host machine: cc ld.bfd 2.30
 No VALAFLAGS in the environment, not changing global flags.
 No LDFLAGS in the environment, not changing global flags.
 Using cached compile:
-Cached command line:  valac /tmp/tmphq4z25r5/testfile.vala -C 
+Cached command line:  valac /tmp/tmp24655be0/testfile.vala -C 
 
 Code:
  class MesonSanityCheck : Object { }
@@ -89,8 +89,8 @@ PKG_CONFIG_PATH:
 Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
 Running compile:
-Working directory:  /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpim78_upf
-Command line:  cc /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpim78_upf/testfile.c -o /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpim78_upf/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+Working directory:  /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmp6yuhtm3_
+Command line:  cc /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmp6yuhtm3_/testfile.c -o /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmp6yuhtm3_/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
 
 Code:
  #include<stdio.h>
@@ -111,8 +111,8 @@ Program stderr:
 
 
 Running compile:
-Working directory:  /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpixpzit5f
-Command line:  cc /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpixpzit5f/testfile.c -o /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpixpzit5f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+Working directory:  /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpzk_y3ua3
+Command line:  cc /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpzk_y3ua3/testfile.c -o /home/re/Programs/project/study/vala/vala-basic/main5/build/meson-private/tmpzk_y3ua3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
 
 Code:
  

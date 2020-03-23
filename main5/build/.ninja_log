@@ -1,9 +1,9 @@
 # ninja log v5
-0	665	1584291236	src/25a6634@@com.araggna@exe/main5.c	fa8b94ff60e8627b
-0	665	1584291236	src/25a6634@@com.araggna@exe/Widgets/Window.c	fa8b94ff60e8627b
-0	665	1584291236	src/25a6634@@com.araggna@exe/Application.c	fa8b94ff60e8627b
-665	2348	1584291238	src/25a6634@@com.araggna@exe/meson-generated_main5.c.o	6bc760b4240215a2
-666	2386	1584291238	src/25a6634@@com.araggna@exe/meson-generated_Application.c.o	ec75e0df7f082232
-665	2398	1584291238	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
-2398	3513	1584291239	src/com.araggna	59cb3c8eee8cccd3
-3	1705	0	meson-install	d9e96985dc3b0ec8
+0	672	1584927664	src/25a6634@@com.araggna@exe/main5.c	fa8b94ff60e8627b
+0	672	1584927664	src/25a6634@@com.araggna@exe/Widgets/Window.c	fa8b94ff60e8627b
+0	672	1584927664	src/25a6634@@com.araggna@exe/Application.c	fa8b94ff60e8627b
+672	2450	1584927666	src/25a6634@@com.araggna@exe/meson-generated_main5.c.o	6bc760b4240215a2
+673	2503	1584927666	src/25a6634@@com.araggna@exe/meson-generated_Application.c.o	ec75e0df7f082232
+672	2511	1584927666	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
+2511	3509	1584927667	src/com.araggna	59cb3c8eee8cccd3
+2	1844	0	meson-install	d9e96985dc3b0ec8
