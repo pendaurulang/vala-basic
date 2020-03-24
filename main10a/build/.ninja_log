@@ -1,0 +1,10 @@
+# ninja log v5
+0	469	1585035994	src/25a6634@@com.araggna@exe/main10.c	caaf7adc85a08dac
+0	469	1585035994	src/25a6634@@com.araggna@exe/Application.c	caaf7adc85a08dac
+0	469	1585035994	src/25a6634@@com.araggna@exe/Widgets/Window.c	caaf7adc85a08dac
+0	469	1585035994	src/25a6634@@com.araggna@exe/Widgets/HeaderBar.c	caaf7adc85a08dac
+469	1156	1585035995	src/25a6634@@com.araggna@exe/meson-generated_main10.c.o	b7a9888c552c5eb5
+470	1186	1585035995	src/25a6634@@com.araggna@exe/meson-generated_Application.c.o	ec75e0df7f082232
+470	1201	1585035995	src/25a6634@@com.araggna@exe/meson-generated_Widgets_Window.c.o	700639c555fbbaa
+470	1233	1585035995	src/25a6634@@com.araggna@exe/meson-generated_Widgets_HeaderBar.c.o	54834ab74caec0a9
+1234	1395	1585035995	src/com.araggna	64a8f877062f5da2
