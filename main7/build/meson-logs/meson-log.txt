@@ -1,0 +1,42 @@
+Build started at 2020-03-24T08:20:39.527616
+Main binary: /usr/bin/python3
+Build Options: -Dprefix=/usr
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/re/Programs/project/study/vala/vala-basic/main7
+Build dir: /home/re/Programs/project/study/vala/vala-basic/main7/build
+Build type: native build
+Project name: com.araggna
+Project version: undefined
+C compiler for the build machine: cc (gcc 7.5.0 "cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+C linker for the build machine: cc ld.bfd 2.30
+Vala compiler for the build machine: valac (valac 0.40.17)
+C compiler for the host machine: cc (gcc 7.5.0 "cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+C linker for the host machine: cc ld.bfd 2.30
+Vala compiler for the host machine: valac (valac 0.40.17)
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Dependency gtk+-3.0 found: YES 3.22.30 (cached)
+Dependency gio-2.0 found: YES 2.56.4 (cached)
+Program meson/post_install.py found: YES (/usr/bin/python3 /home/re/Programs/project/study/vala/vala-basic/main7/meson/post_install.py)
+Build targets in project: 1
+
+Found ninja-1.8.2 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/re/Programs/project/study/vala/vala-basic/main7/build/meson-private/tmp9p45zl8r
+Command line:  cc /home/re/Programs/project/study/vala/vala-basic/main7/build/meson-private/tmp9p45zl8r/testfile.c -o /home/re/Programs/project/study/vala/vala-basic/main7/build/meson-private/tmp9p45zl8r/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/7/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/7/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/7/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
