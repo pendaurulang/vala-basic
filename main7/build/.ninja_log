@@ -21,3 +21,9 @@
 4	465	1585013106	src/25a6634@@com.araggna@exe/Widgets/HeaderBar.c	8cdbb4791336a8c3
 465	833	1585013170	src/25a6634@@com.araggna@exe/meson-generated_Widgets_HeaderBar.c.o	54834ab74caec0a9
 833	985	1585013170	src/com.araggna	2dc41fbde04a1830
+3	468	1585013355	src/25a6634@@com.araggna@exe/main7.c	8cdbb4791336a8c3
+3	468	1585013355	src/25a6634@@com.araggna@exe/Application.c	8cdbb4791336a8c3
+3	468	1585013355	src/25a6634@@com.araggna@exe/Widgets/Window.c	8cdbb4791336a8c3
+3	468	1585013355	src/25a6634@@com.araggna@exe/Widgets/HeaderBar.c	8cdbb4791336a8c3
+468	826	1585013378	src/25a6634@@com.araggna@exe/meson-generated_Widgets_HeaderBar.c.o	54834ab74caec0a9
+826	968	1585013379	src/com.araggna	2dc41fbde04a1830
