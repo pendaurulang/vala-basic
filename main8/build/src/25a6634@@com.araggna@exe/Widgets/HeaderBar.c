@@ -85,10 +85,11 @@ araggna_header_bar_constructor (GType type,
 	GtkStyleContext* _tmp6_;
 	GtkButton* _tmp7_;
 	GtkButton* _tmp8_;
-	GtkButton* _tmp9_;
 	GtkButton* menu_button = NULL;
+	GtkButton* _tmp9_;
 	GtkButton* _tmp10_;
 	GtkButton* _tmp11_;
+	GtkButton* _tmp12_;
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	parent_class = G_OBJECT_CLASS (araggna_header_bar_parent_class);
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
@@ -137,20 +138,24 @@ araggna_header_bar_constructor (GType type,
 	_tmp8_ = add_button;
 #line 16 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	gtk_header_bar_pack_start ((GtkHeaderBar*) self, (GtkWidget*) _tmp8_);
-#line 17 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
-	_tmp9_ = add1_button;
-#line 17 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
-	gtk_header_bar_pack_end ((GtkHeaderBar*) self, (GtkWidget*) _tmp9_);
 #line 19 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
-	_tmp10_ = (GtkButton*) gtk_button_new_from_icon_name ("open-menu", (GtkIconSize) GTK_ICON_SIZE_LARGE_TOOLBAR);
+	_tmp9_ = (GtkButton*) gtk_button_new_from_icon_name ("emblem-system", (GtkIconSize) GTK_ICON_SIZE_LARGE_TOOLBAR);
 #line 19 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
-	g_object_ref_sink (_tmp10_);
+	g_object_ref_sink (_tmp9_);
 #line 19 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
-	menu_button = _tmp10_;
-#line 21 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+	menu_button = _tmp9_;
+#line 20 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+	_tmp10_ = menu_button;
+#line 20 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+	gtk_widget_set_valign ((GtkWidget*) _tmp10_, GTK_ALIGN_CENTER);
+#line 22 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	_tmp11_ = menu_button;
-#line 21 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+#line 22 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	gtk_header_bar_pack_end ((GtkHeaderBar*) self, (GtkWidget*) _tmp11_);
+#line 23 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+	_tmp12_ = add1_button;
+#line 23 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
+	gtk_header_bar_pack_end ((GtkHeaderBar*) self, (GtkWidget*) _tmp12_);
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	_g_object_unref0 (menu_button);
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
@@ -159,7 +164,7 @@ araggna_header_bar_constructor (GType type,
 	_g_object_unref0 (add_button);
 #line 2 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	return obj;
-#line 163 "HeaderBar.c"
+#line 168 "HeaderBar.c"
 }
 
 
@@ -170,7 +175,7 @@ araggna_header_bar_class_init (araggnaHeaderBarClass * klass)
 	araggna_header_bar_parent_class = g_type_class_peek_parent (klass);
 #line 1 "/home/re/Programs/project/study/vala/vala-basic/main8/src/Widgets/HeaderBar.vala"
 	G_OBJECT_CLASS (klass)->constructor = araggna_header_bar_constructor;
-#line 174 "HeaderBar.c"
+#line 179 "HeaderBar.c"
 }
 
 
